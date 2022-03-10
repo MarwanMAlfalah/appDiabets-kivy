@@ -1,0 +1,139 @@
+ScreenManager:
+    Main:
+<Main>:
+    name : 'main'
+       
+    MDLabel:
+        text: 'Smart Predict Diabetes'
+        halign: 'center'
+        pos_hint: {'center_y':0.9}
+        font_style: 'H3'
+        color: '#5B2160'
+
+    MDLabel:
+        text: 'pregnancies'
+        pos_hint: {'center_y':0.75, 'center_x':0.75}
+
+    MDTextField:
+        id: input_1
+        hint_text: '(0 - 17)'
+        width: 100
+        size_hint_x: None
+        pos_hint: {'center_y':0.75, 'center_x':0.7}
+
+    MDLabel:
+        text: 'glucose'
+        pos_hint: {'center_y':0.68, 'center_x':0.75}
+
+    MDTextField:
+        id: input_2
+        hint_text: '(0 - 200)'
+        width: 100
+        size_hint_x: None
+        pos_hint: {'center_y':0.68, 'center_x':0.7}
+
+    MDLabel:
+        text: 'bp'
+        pos_hint: {'center_y':0.61, 'center_x':0.75}
+
+    MDTextField:
+        id: input_3
+        hint_text: '(0 - 122)'
+        width: 100
+        size_hint_x: None
+        pos_hint: {'center_y':0.61, 'center_x':0.7}
+
+    MDLabel:
+        text: 'skinthickness'
+        pos_hint: {'center_y':0.54, 'center_x':0.75}
+
+    MDTextField:
+        id: input_4
+        hint_text: '(0 - 100)'
+        width: 100
+        size_hint_x: None
+        pos_hint: {'center_y':0.54, 'center_x':0.7}
+
+    MDLabel:
+        text: 'insulin'
+        pos_hint: {'center_y':0.47, 'center_x':0.75}
+
+    MDTextField:
+        id: input_5
+        hint_text: '(0 - 846)'
+        width: 100
+        size_hint_x: None
+        pos_hint: {'center_y':0.47, 'center_x':0.7}
+
+    MDLabel:
+        text: 'bmi'
+        pos_hint: {'center_y':0.40, 'center_x':0.75}
+
+    MDTextField:
+        id: input_6
+        hint_text: '(0 - 67)'
+        width: 100
+        size_hint_x: None
+        pos_hint: {'center_y':0.40, 'center_x':0.7}
+
+    MDLabel:
+        text: 'dpf'
+        pos_hint: {'center_y':0.33, 'center_x':0.75}
+
+    MDTextField:
+        id: input_7
+        hint_text: '(0.0 - 2.4)'
+        width: 100
+        size_hint_x: None
+        pos_hint: {'center_y':0.33, 'center_x':0.7}
+
+    MDLabel:
+        text: 'age'
+        pos_hint: {'center_y':0.26, 'center_x':0.75}
+
+    MDTextField:
+        id: input_8
+        hint_text: '(21 - 88)'
+        width: 100
+        size_hint_x: None
+        pos_hint: {'center_y':0.26, 'center_x':0.7}
+
+    MDLabel:
+        pos_hint: {'center_y':0.2}
+        halign: 'center'
+        text: ''
+        id: output_text_not
+        theme_text_color: "Custom"
+        text_color: '#3B8BFF'
+    MDLabel:
+        pos_hint: {'center_y':0.2}
+        halign: 'center'
+        text: ''
+        id: output_text_sick
+        theme_text_color: "Custom"
+        text_color: '#EF0F0F'
+    MDLabel:
+        text: "Copyright © MarwanCo. for AI 2022 ^_^"
+        pos_hint: {'center_y':0.07}
+        font_size: "12sp"
+        line_height: .85
+        halign: "center"
+        color: '##5B2160'
+    MDLabel:
+        text: "Marwan Al-Falah - ... - ..."
+        pos_hint: {'center_y':0.04}
+        color: '##5B2160'
+        font_size: "11sp"
+        line_height: .85
+        halign: "center"
+    MDLabel:
+        text: "malfalah_std@kmsu.edu.ye"
+        pos_hint: {'center_y':0.018}
+        color: '##5B2160'
+        font_size: "11sp"
+        line_height: .85
+        halign: "center"
+    MDRaisedButton:
+        pos_hint: {'center_x':0.5, 'center_y':0.13}
+        text: 'Predict'
+        on_press: app.predict()
