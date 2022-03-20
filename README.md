@@ -6,3 +6,8 @@ The machine learning app built in Python using the following libraries:
 * kivymd
 * pandas
 * sklearn
+
+
+## Screenshots
+
+![App Screenshot](https://f.top4top.io/p_2268fxpt91.jpg)
