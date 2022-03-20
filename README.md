@@ -14,4 +14,4 @@ The machine learning app built in Python using the following libraries:
 
 
 ## 🔗 Links
-[![Youtube](https://flyclipart.com/thumb2/youtube-logo-png-transparent-image-166805.png)](https://www.youtube.com/channel/UCD7pERH19kvD26W2h585AZQ)
+- [Youtube Channel](https://www.youtube.com/channel/UCD7pERH19kvD26W2h585AZQ)
